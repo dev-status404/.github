@@ -1,6 +1,14 @@
 name: "✨ Feature Request"
-description: "새로운 기능이나 개선 아이디어가 있다면 작성해주세요"
+description: ""
 labels: ["FEAT"]
+
+---
+name: ✨ Feature Request
+about: 새로운 기능이나 개선 아이디어가 있다면 작성해주세요
+title: "[CI] {{제목}}"
+labels: feat
+assignees: ''
+---
 body:
   - type: markdown
     attributes:
