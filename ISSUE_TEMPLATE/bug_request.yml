@@ -1,0 +1,66 @@
+name: "🐛 Bug report"
+description: "버그를 신고할 때 사용하세요"
+labels: ["BUG"]
+
+body:
+  - type: textarea
+    id: bug_description
+    attributes:
+      label: 버그 설명
+      description: 버그가 무엇인지 명확하게 설명해주세요.
+      placeholder: |
+        예시) 로그인 버튼을 눌러도 반응이 없습니다.
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduce_steps
+    attributes:
+      label: 재현 순서
+      description: 버그를 어떻게 재현할 수 있는지 단계별로 적어주세요.
+      placeholder: |
+        1. ...
+        2. ...
+        3. ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected_result
+    attributes:
+      label: 기대 결과
+      description: 정상적으로 동작할 때의 결과를 적어주세요.
+      placeholder: |
+        예시) 로그인 후 메인 페이지로 이동해야 합니다.
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual_result
+    attributes:
+      label: 실제 결과
+      description: 실제로 발생한 결과를 적어주세요.
+      placeholder: |
+        예시) 아무런 반응이 없습니다.
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: 스크린샷 (선택)
+      description: 문제가 보이는 화면을 캡처해서 첨부해 주세요. (선택 사항)
+      placeholder: |
+        이미지를 첨부하려면 이곳에 드래그하거나 붙여넣기 하세요.
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional_context
+    attributes:
+      label: 추가 설명 (선택)
+      description: 문제를 이해하는 데 도움이 될 만한 추가 정보를 적어주세요. (선택 사항)
+      placeholder: |
+        예시) 특정 브라우저에서만 발생합니다.
+    validations:
+      required: false

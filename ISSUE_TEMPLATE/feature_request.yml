@@ -1,0 +1,33 @@
+name: "✨ Feature Request"
+description: "새로운 기능이나 개선 아이디어가 있다면 작성해주세요"
+labels: ["FEAT"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 📌 설명
+        추가하고 싶은 기능에 대해 간단히 설명해주세요.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: 기능 설명
+      description: 추가하고 싶은 기능에 대해 자세히 적어주세요.
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected_effect
+    attributes:
+      label: 기대 효과
+      description: 이 기능이 왜 필요한지, 어떤 문제를 해결할 수 있는지 적어주세요.
+    validations:
+      required: true
+
+  - type: input
+    id: related_issues
+    attributes:
+      label: 관련 이슈
+      description: "관련된 기존 이슈나 PR이 있다면 번호 또는 링크를 적어주세요. (예: #123)"
+    validations:
+      required: false
