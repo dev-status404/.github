@@ -5,7 +5,6 @@ title: "[bug] {{제목}}"
 labels: bug
 assignees: ''
 ---
-새로운 기능이나 개선 아이디어가 있다면 작성해주세요
 body:
   - type: textarea
     id: bug_description
