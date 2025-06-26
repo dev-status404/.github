@@ -1,6 +1,10 @@
-name: "🐛 Bug report"
-description: "버그를 신고할 때 사용하세요"
-labels: ["BUG"]
+---
+name: 🐛 버그 리포트
+about: CI 관련 오류 공유
+title: "[CI] {{제목}}"
+labels: bug
+assignees: ''
+---
 
 body:
   - type: textarea
