@@ -17,11 +17,45 @@
 
 <br>
 
-## 🎯 프로젝트 목표  
+## 🎯 프로젝트 개요  
+> 아이디어만 있다면? <br>펀딩은 **FUNDMAT**E와 함께! 💡
+
+**FUNDMATE**는 누구나 쉽게 펀딩을 개설하고 참여할 수 있도록 돕는 **AI 및 공공 데이터 기반 펀딩 플랫폼**입니다.
 
 <br>
 
+<img src="../assets/Mockup.png" width=900px alt="fundmate" />
+
+### **🔧 이런 기능이 있어요!**
+
+🤖 **AI 콘텐츠 지원 기능**
+
+☑️ **한줄 소개 자동 생성**:<br>
+긴 소개글을 입력하면, AI가 핵심만 뽑아 한눈에 들어오는 요약을 만들어줘요!
+
+☑️ **아이디어 확장 기능**:<br>
+간단한 아이디어만 입력해도, AI가 상세한 소개글로 발전시켜줍니다!
+
+<br>
+
+📊 **공공데이터 기반 통계 제공**
+
+☑️ **카테고리 선택만 하면 끝!**<br>
+선택한 분류(예: 뷰티, 육아, 건강 등)에 따라 관련된 통계 데이터를 시각화해서 보여줘요.
+
+☑️ 펀딩 기획에 필요한 **시장 인사이트**를 손쉽게 확인할 수 있어요!
+
+<br>
+
+**백엔드에서는 MSA(Microservice Architecture)를 프론트에서는 MFE(Micro Frontend)** 구조를 도입하여<br>
+각 기능을 서비스 단위로 분리해 **확장성과 독립성**을 높였습니다. 
+
+<br>
+
+### <span style="color: #5FBDFF;">FUNDMATE</span>와 함께라면, 당신의 아이디어가 현실이 됩니다! 🚀  <br> 펀딩의 새로운 경험을 지금 시작해보세요.
+<br>
+
 ## 🔗 기록 
-| 회의록 |
-| :---: |
-| [Notion](https://www.notion.so/Team02-status404-20ff93f59cb080dfb304cc3311780ad8?source=copy_link) |
+| 회의록 | 발표자료 |
+| :---: | :---: |
+| [Notion](https://www.notion.so/Team02-status404-20ff93f59cb080dfb304cc3311780ad8?source=copy_link) | [PDF](../docs/FundMate.pdf) |
